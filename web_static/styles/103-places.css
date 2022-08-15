@@ -175,3 +175,57 @@ section.places h2:not(.title) {
 
 
 }
+
+@media all and (max-width: 400px) {
+
+	.information {
+		height:90px;
+	}
+
+	.information p {
+		margin-top:58px;
+		padding: 10px;
+		font-size: 10px;
+	}
+
+	.max_guest,
+	.number_rooms,
+	.number_bathrooms {
+		background-position: center;
+	}
+
+	.price_by_night {
+		right:8px;
+		top:10px;
+		border:solid 2px #bb1117;
+		border-radius: 50%;
+		min-width: 45px;
+		height:45px;
+	}
+}
+
+@media all and (max-width: 300px) {
+
+	.information {
+		height:70px;
+	}
+
+	.max_guest,
+	.number_rooms,
+	.number_bathrooms {
+		background-position: top center;
+	}
+
+	.information p {
+		margin-top:34px;
+	}
+
+	.locations, section.filters .amenities {
+		font-size:10px;
+	}
+
+	.locations .popdown h2 {
+		font-size: 12px;
+	}
+
+}
